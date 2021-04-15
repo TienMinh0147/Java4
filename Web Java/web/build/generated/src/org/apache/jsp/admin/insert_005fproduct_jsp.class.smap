@@ -1,0 +1,18 @@
+SMAP
+insert_005fproduct_jsp.java
+JSP
+*S JSP
+*F
++ 0 insert_product.jsp
+admin/insert_product.jsp
+*L
+1,11:54
+11:170,6
+11:67
+12:68,3
+13,7:71
+20:78,3
+21,3:81
+24:84,3
+25,66:87
+*E

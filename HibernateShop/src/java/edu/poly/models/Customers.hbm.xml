@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 21, 2019 2:22:02 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="edu.poly.models.Customers" table="Customers" schema="dbo" catalog="DemoDB" optimistic-lock="version">
+        <id name="customerId" type="int">
+            <column name="CustomerId" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="Name" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="Email" />
+        </property>
+        <property name="tel" type="string">
+            <column name="Tel" />
+        </property>
+        <property name="gender" type="boolean">
+            <column name="Gender" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
